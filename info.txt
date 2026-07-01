@@ -1,0 +1,36 @@
+-> python -m venv venv
+-> ARPS\Scripts\activate
+-> deactivate
+
+-> 
+-> python AI_Research_Paper_Summarizer.py
+->
+->
+->
+
+
+
+
+
+
+
+
+    Tkinter GUI
+        ↓
+    Upload PDF
+        ↓
+ PDF Text Extraction
+(PyPDF2 / pdfplumber)
+        ↓
+  Text Processing
+        ↓
+  LLM (Gemini/OpenAI)
+        ↓
+ ┌───────────────────┐
+ │ Summary           │
+ │ Key Findings      │
+ │ Q&A Generation    │
+ │ Citation Extract  │
+ └───────────────────┘
+        ↓
+  Display in Tkinter
